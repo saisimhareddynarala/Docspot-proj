@@ -1,0 +1,35 @@
+<!-- frontend/dashboard.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+  <h2 id="welcomeMsg">Welcome to DocSpot Dashboard</h2>
+
+  <div id="userActions" style="display:none;">
+    <h3>User Panel</h3>
+    <a href="doctor-apply.html">Apply as Doctor</a><br>
+    <a href="appointments.html?role=user">View My Appointments</a><br>
+    <a href="appointments.html?role=book">Book Appointment</a>
+  </div>
+
+  <div id="doctorActions" style="display:none;">
+    <h3>Doctor Panel</h3>
+    <a href="appointments.html?role=doctor">View Appointments</a>
+  </div>
+
+  <div id="adminActions" style="display:none;">
+    <h3>Admin Panel</h3>
+    <a href="admin.html">Manage Doctors and Users</a>
+  </div>
+
+  <br />
+  <button id="logoutBtn">Logout</button>
+
+  <script src="js/dashboard.js"></script>
+</body>
+</html>

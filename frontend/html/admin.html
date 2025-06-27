@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Admin Panel</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <h2>Admin Panel</h2>
+
+<button id="getAllUsersBtn">Get All Users</button>
+<button id="getPendingDoctorsBtn">Get Pending Doctors</button>
+<button id="getApprovedDoctorsBtn">Get Approved Doctors</button>
+
+<h3>Update Doctor Status (manual)</h3>
+<input type="text" id="doctorId" placeholder="Doctor ID">
+<select id="status">
+  <option value="approved">Approve</option>
+  <option value="rejected">Reject</option>
+</select>
+<button id="updateDoctorBtn">Update Status</button>
+
+<hr>
+<div id="output"></div>
+
+<script src="js/admin.js"></script>
+</body>
+</html>
