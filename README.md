@@ -23,7 +23,10 @@
 - 🔄 Update doctor status dynamically
 
 ---
+🚀 Live Demo  
+[Click to View on Google Drive](https://drive.google.com/file/d/1H6pidUS_lh7-nKZdeW5KA_ryaJh1fGvE/view?usp=drive_link)
 
+---
 ## 🧱 Tech Stack
 
 **Frontend:**
